@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Todo list</title>
+    <meta name="description" content="Todo list" />
+
+    <meta name="keywords" content="business, code, developer" />
+    <meta
+      name="viewport"
+      content="width=device-width,
+initial-scale=1.0"
+    />
+
+    <meta name="author" content="Jess Lodge" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="myDIV" class="header">
+      <h2>My To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <span onclick="newTodo()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li>Hit the gym</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet George</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Organize office</li>
+    </ul>
+  </body>
+  <script type="module" src="./src/index.js"></script>
+</html>
